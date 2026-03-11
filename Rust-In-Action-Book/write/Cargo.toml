@@ -1,8 +1,6 @@
 [package]
-name = "grep-lite"
+name = "write"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-clap = "2"
-regex = "1"

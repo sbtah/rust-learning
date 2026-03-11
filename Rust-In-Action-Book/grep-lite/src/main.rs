@@ -1,5 +1,20 @@
+use regex::Regex;
+use clap::{App, Arg};
+
+
 fn main() {
-    let search_term = "picture";
+    let args = App::new("grep-lite")
+        .version("0.1")
+        .about("Searches for patterns")
+        .arg(Arg::with_name("pattern")
+            .help("The pattern to search for")
+            .takes_value(true)
+            .required(true))
+        .get_matches();
+
+
+    let pattern = args.value_of("pattern").unwrap();
+    let re = Regex::new(pattern).unwrap();
 
 
     // Multiline strings does not require a special syntax in Rust.
@@ -10,8 +25,6 @@ fn main() {
     It is the same with books.
     What do we seek through millions of pages?\
     ";
-
-    let some = 'x';
 
     // lines() creates an iterator over quote 
     // where each interation is a line of text.
@@ -29,10 +42,12 @@ fn main() {
 
     // COUNTING LINES WITH enumerate()
     // Chaining: .enumerate() method
-    for (idx, line) in quote.lines().enumerate() {
-        if line.contains(search_term) {
-            let line_num = idx + 1;
-            println!("{}: {}", line_num, line);
+    for line in quote.lines() {
+            let contains_substring = re.find(line);
+            match contains_substring {
+                Some(_) => println!("{}", line),
+                None => (),
+            }
         }
     }
-}
+
