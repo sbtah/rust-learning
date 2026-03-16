@@ -1,7 +1,7 @@
 fn main() {
     let to_test = String::from("Hello World my little puppies!");
 
-    // first_word(&to_test);
+    first_word(&to_test);
 
     let res = first_word(&to_test);
 
@@ -16,7 +16,7 @@ fn get_first_word(some_string: &String) -> &str {
 }
 
 // Different implementation:
-fn first_word(some_string: &String) -> &str {
+fn first_word(some_string: &str) -> &str {
     let bytes = some_string.as_bytes();
 
     // println!("DEBUG BYTES: {:#?}", bytes);

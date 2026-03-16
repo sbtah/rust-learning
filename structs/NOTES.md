@@ -1,0 +1,1 @@
+# A struct of a structure is a custom data type that lets yo package together and name multiple related values.
