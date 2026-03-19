@@ -1,27 +1,33 @@
+#[derive(Debug)]
+enum SpreadSheetCell {
+    Int(i32),
+    Float(f64),
+    Text(String),
+}
+
 fn main() {
-    let mut vv: Vec<i32> = Vec::new();
+    // If we know the number of item in the Vector we can use with_capacity.
+    // This will pre-allocate memory in the heap. meaning no re-allocation for the vector.
+    let v_1:Vec<i32> = Vec::new();
+    println!("V1 Vec : {:#?}, capacity: {}",  v_1, v_1.capacity());
+
+    let mut vv: Vec<i32> = Vec::with_capacity(5);
+    println!("VV Vec : {:#?}, capacity: {}",  vv, vv.capacity());
 
     vv.push(5);
     vv.push(6);
     vv.push(7);
     vv.push(8);
 
-    // println!("{:#?}", vv);
+    for v in &mut vv {
+        println!("{}", v);
+    }
 
-    let mut v2 = vec![1, 2, 3, 4, 5];
-    let third_of_v2 = v2[2];
-    // let fourth_of_v2 = v2.get(3);
+    let row = vec![
+        SpreadSheetCell::Int(3),
+        SpreadSheetCell::Text(String::from("Blue")),
+        SpreadSheetCell::Float(3.65),
+    ];
 
-    v2.push(8);
-
-
-
-    println!("The third element of v2 is {}", third_of_v2);
-    // if let Some(val) = fourth_of_v2 {
-    //     println!("The fourth element of v2 is {}", val);
-    // }
-    
-    println!("v2: {:#?}", v2);
-
-
+    println!("Row: {:#?}", row);
 }
