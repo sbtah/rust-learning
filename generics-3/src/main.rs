@@ -3,6 +3,13 @@ struct Point<T> {
     y: T,
 }
 
+impl<T> Point<T> {
+    fn x(&self) -> &T {
+        &self.x
+    }
+}
+
+
 
 fn main() {
     let numbers_1 = vec![34, 50, 25, 100, 65];
@@ -16,6 +23,11 @@ fn main() {
     println!("The largest number for 1 is: {}", largest_1);
     println!("The largest number for 2 is: {}", largest_2);
     println!("The largest char is: {}", largest_char);
+
+    let integer_point = Point { x: 1, y: 2 };
+    let float_point = Point { x: 2.0, y: 3.0 };
+
+    println!("POINT X:{:#?}", float_point.x());
 }
 
 
