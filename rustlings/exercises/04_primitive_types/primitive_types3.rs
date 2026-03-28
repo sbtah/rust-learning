@@ -1,6 +1,6 @@
 fn main() {
     // TODO: Create an array called `a` with at least 100 elements in it.
-    // let a = ???
+    let a: [i32; 200] = std::array::from_fn(|i| i as i32);
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
