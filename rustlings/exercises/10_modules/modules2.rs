@@ -3,15 +3,18 @@
 
 mod delicious_snacks {
     // TODO: Add the following two `use` statements after fixing them.
-    // use self::fruits::PEAR as ???;
-    // use self::veggies::CUCUMBER as ???;
+    use self::fruits::PEAR as pear;
+    use self::veggies::CUCUMBER as cucumber;
 
-    mod fruits {
+    pub use self::fruits::APPLE as fruit;
+    pub use self::veggies::CARROT as veggie;
+
+    pub mod fruits {
         pub const PEAR: &str = "Pear";
         pub const APPLE: &str = "Apple";
     }
 
-    mod veggies {
+    pub mod veggies {
         pub const CUCUMBER: &str = "Cucumber";
         pub const CARROT: &str = "Carrot";
     }

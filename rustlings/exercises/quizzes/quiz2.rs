@@ -27,17 +27,52 @@ mod my_module {
     use super::Command;
 
     // TODO: Complete the function as described above.
-    // pub fn transformer(input: ???) -> ??? { ??? }
+    pub fn transformer(input: Vec<(String, Command)>) -> Vec<String> {
+        let mut processed: Vec<String> = vec![]; 
+        for tuple in input {
+            match tuple.1 {
+                Command::Uppercase => {
+                    let uppercased = tuple.0.to_uppercase();
+                    processed.push(uppercased);
+                },
+                Command::Trim => {
+                    let trimmed = tuple.0.trim().to_string();
+                    processed.push(trimmed);
+                },
+                Command::Append(value) => {
+                    let mut expanded = tuple.0;
+                    for _ in 0..value {
+                        expanded.push_str("bar");
+                    }
+                    processed.push(expanded);
+                },
+            }
+        }
+        processed
+    }
 }
 
 fn main() {
-    // You can optionally experiment here.
+    use my_module::transformer;
+    use Command;
+
+
+    let input = vec![
+        ("hello".to_string(), Command::Uppercase),
+        (" all roads lead to rome! ".to_string(), Command::Trim),
+        ("foo".to_string(), Command::Append(1)),
+        ("bar".to_string(), Command::Append(5)),
+    ];
+    let output = transformer(input);
+
+
+    println!("DEBUG: {:#?}", output);
 }
 
 #[cfg(test)]
 mod tests {
     // TODO: What do we need to import to have `transformer` in scope?
-    // use ???;
+    use super::my_module::transformer;
     use super::Command;
 
     #[test]
