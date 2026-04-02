@@ -4,61 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc76992-45c7-4aed-ad9d-39d45b5e9f17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/rustlings/.rustlings-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/.rustlings-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/04_primitive_types/primitive_types4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/04_primitive_types/primitive_types4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/04_primitive_types/primitive_types5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/04_primitive_types/primitive_types5.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/04_primitive_types/primitive_types6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/04_primitive_types/primitive_types6.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/05_vecs/vecs1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/05_vecs/vecs1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/05_vecs/vecs2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/05_vecs/vecs2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/06_move_semantics/move_semantics5.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/07_structs/structs1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/07_structs/structs1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/07_structs/structs2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/07_structs/structs2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/07_structs/structs3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/07_structs/structs3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/08_enums/enums1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/08_enums/enums1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/08_enums/enums2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/08_enums/enums2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/08_enums/enums3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/08_enums/enums3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/09_strings/strings4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/10_modules/modules1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/10_modules/modules1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/10_modules/modules2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/10_modules/modules2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/10_modules/modules3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/10_modules/modules3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/11_hashmaps/hashmaps1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/11_hashmaps/hashmaps1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/11_hashmaps/hashmaps2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/11_hashmaps/hashmaps2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/exercises/11_hashmaps/hashmaps3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/exercises/11_hashmaps/hashmaps3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/04_primitive_types/primitive_types4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/04_primitive_types/primitive_types4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/04_primitive_types/primitive_types5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/04_primitive_types/primitive_types5.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/04_primitive_types/primitive_types6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/04_primitive_types/primitive_types6.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/05_vecs/vecs1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/05_vecs/vecs1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/05_vecs/vecs2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/05_vecs/vecs2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/06_move_semantics/move_semantics5.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/07_structs/structs1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/07_structs/structs1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/07_structs/structs2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/07_structs/structs2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/07_structs/structs3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/07_structs/structs3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/08_enums/enums1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/08_enums/enums1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/08_enums/enums2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/08_enums/enums2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/08_enums/enums3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/08_enums/enums3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/09_strings/strings4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/10_modules/modules1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/10_modules/modules1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/10_modules/modules2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/10_modules/modules2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/10_modules/modules3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/10_modules/modules3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/11_hashmaps/hashmaps1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/11_hashmaps/hashmaps1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/11_hashmaps/hashmaps2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/11_hashmaps/hashmaps2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rustlings/solutions/11_hashmaps/hashmaps3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rustlings/solutions/11_hashmaps/hashmaps3.rs" afterDir="false" />
-    </list>
+    <list default="true" id="2bc76992-45c7-4aed-ad9d-39d45b5e9f17" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +56,7 @@
       <workItem from="1773855454955" duration="2943000" />
       <workItem from="1774296667616" duration="892000" />
       <workItem from="1774332743795" duration="2977000" />
-      <workItem from="1774803625548" duration="662000" />
+      <workItem from="1774803625548" duration="1264000" />
     </task>
     <servers />
   </component>
