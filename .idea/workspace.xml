@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc76992-45c7-4aed-ad9d-39d45b5e9f17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics-4/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/generics-4/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +32,20 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/user/2-Learning/game-loop",
+    "last_opened_file_path": "/home/user/2-Learning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,6 +64,15 @@
       <workItem from="1774332743795" duration="2977000" />
       <workItem from="1774803625548" duration="1264000" />
       <workItem from="1775457493760" duration="23000" />
+      <workItem from="1776058346827" duration="38000" />
+      <workItem from="1776058390135" duration="17000" />
+      <workItem from="1776058413775" duration="2640000" />
+      <workItem from="1776253811109" duration="2000" />
+      <workItem from="1776253820678" duration="8000" />
+      <workItem from="1776407431386" duration="2721000" />
+      <workItem from="1776456605104" duration="5000" />
+      <workItem from="1776500172638" duration="743000" />
+      <workItem from="1776531694891" duration="15000" />
     </task>
     <servers />
   </component>
@@ -75,5 +88,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
