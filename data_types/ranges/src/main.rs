@@ -8,8 +8,8 @@ fn main() {
     // Range does not have a display trait, but has a debug trait.
     println!("Range exlusive: {:?}", month_days);
 
-    // Declaring a rang inclusive.
-    // Including last number in declaraion <RangeInclusive> struct.
+    // Declaring a range inclusive.
+    // Including last number in declaraion of <RangeInclusive> struct.
     let days_month: RangeInclusive<i32> = 1..=31;
     println!("Range inclusive: {:?}", days_month);
 
@@ -18,8 +18,8 @@ fn main() {
         println!("{number}");
     }
 
-    // Whoooa
-    let letters = 'b'..='f';
+    // Whoooa!
+    let letters: RangeInclusive<char> = 'b'..='f';
     for letter in letters {
         println!("{}", letter);
     }
