@@ -45,3 +45,14 @@ fn solution_2(s: &str) -> Vec<String> {
         }
     }
 }
+
+fn solution_3(s: &str) -> Vec<String> {
+    s.chars()
+        .collect::<Vec<char>>()
+        .chunks(2)
+        .map(|c| match c.len() {
+            2 => format!("{}{}", c[0], c[1]),
+            _ => format!("{}_", c[0]),
+        })
+        .collect()
+}
